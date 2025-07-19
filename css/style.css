@@ -116,7 +116,7 @@ nav{
     border-width: 1px;
     border-style: solid;
     padding: 15px 0;
-    border-image: linear-gradient(to right, #a8b0b00b 0%,#cec1c13a 50%, #3a4fd500 100%) 1;
+    border-image: linear-gradient(to right, #a8b0b00b 0%,#9386863a 50%, #3a4fd500 100%) 1;
 }
 .hero-card {
     align-items: center;
