@@ -110,12 +110,13 @@ nav{
 
 /* hero-section-card */
 .hero-sec-card{
-    margin: 0 auto;
+    margin: 50px auto;
     max-width: 1110px;
     max-height: 110px;
-   border-top: 1px solid #C0CCDA;
-   border-bottom: 1px solid #C0CCDA;
-   
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px 0;
+    border-image: linear-gradient(to right, #a8b0b00b 0%,#cec1c13a 50%, #3a4fd500 100%) 1;
 }
 .hero-card {
     align-items: center;
@@ -145,14 +146,14 @@ nav{
     gap: 30px;
 }
 .collection-card{
-    height: 476px;
-    width: 329px;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 17px;
+    width: 90%;
+    padding: 14px 14px 44px 14px;
     box-shadow: -1px 0px 12px 4px rgba(170,170,170,0.75);
 -webkit-box-shadow: -1px 0px 12px 4px rgba(170,170,170,0.75);
 -moz-box-shadow: -1px 0px 12px 4px rgba(170,170,170,0.75);;
+}
+.collection-card img{
+    width: 100%;
 }
 .collection-card p{
     white-space: pre;
@@ -179,7 +180,7 @@ nav{
     align-items: center;
     max-width: 1110px;
     max-height: 270px;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 .gear-title p{
   white-space: pre;
@@ -198,7 +199,7 @@ footer{
     max-width: 100%;
     max-height: 230px;
     background-color: #0A0826;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 .footer-section{
     
@@ -265,7 +266,7 @@ footer{
 }
 
 .collection-card-parent{
-   max-width: 70%;
+   max-width: 90%;
    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -276,7 +277,7 @@ footer{
 }
 
 .feature-section{
-    margin-top: 20px;
+    margin-top: 80px;
    text-align: center;
     max-height: 100%;
 
@@ -369,7 +370,7 @@ color: #3A3A3A;
 }
 
 .feature-section{
-    margin-top: 20px;
+     margin-top: 80px;
    text-align: center;
     max-height: 100%;
 
@@ -459,7 +460,7 @@ max-width: 80%;
 }
 
 .feature-section{
-    margin-top: 20px;
+    margin-top: 80px;
    text-align: center;
     max-height: 100%;
 
@@ -548,7 +549,7 @@ max-width: 80%;
 }
 
 .feature-section{
-    margin-top: 20px;
+    margin-top: 80px;
    text-align: center;
     max-height: 100%;
 
